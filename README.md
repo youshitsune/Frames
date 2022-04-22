@@ -10,6 +10,5 @@ Description:
 ```
 
 # Warning
-Paths need to absolute, which means that it can't have **~** sign it need to b writed **/home/<username>/** instead of **~**.
-
+When you start making images you can't stop it from GUI. You have to do it from terminal.
 
