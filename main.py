@@ -1,7 +1,8 @@
+import typer
 import cv2
 import os
 
-def start(path):
+def main(path: str):
     global label
     video = cv2.VideoCapture(path)
 
@@ -19,14 +20,16 @@ def start(path):
 
         if ret:
             name = './data/frame' + str(currentframe) + '.jpg'
-            text.set(f"Creating... {name}")
-            root.update_idletasks()
+            print(name)
             cv2.imwrite(name, frame)
 
             currentframe +=1
         else:
             break
 
-    cam.release()
-    sys.exit()
+    video.release()
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    typer.run(main)
 
