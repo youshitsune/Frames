@@ -1,14 +1,27 @@
 # Frames
 
-Description:
-    Extracting frames as images from video file
-
-## Usage
-
-``` sh
-    python3 <path-to-file> <path-to-image>
+Description: This CLI tool extracts images from video file.
+---
+# Installation
+You first need to install python and pip on your system.
+Then, you are gonna install some python libraries.
+```bash
+	pip install typer opencv-python
 ```
 
-# Warning
-When you start making images you can't stop it from GUI. You have to do it from terminal.
+After you install those libraries, clone this repo.
+```bash
+	git clone https://github.com/youshitsune/frames.git
+```
+---
+# Usage
+To run tool you first need to go to directory which you cloned and run this:
+```bash
+	python3 main.py <path-to-video>
+```
+
+All extracted frames are in data directory.
+
+# Uninstall
+Just remove cloned folder. That's it.
 
