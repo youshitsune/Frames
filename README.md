@@ -7,18 +7,18 @@ Description: This CLI tool extracts images from video file.
 You first need to install python and pip on your system.
 Then, you are gonna install some python libraries.
 ```bash
-	pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 After you install those libraries, clone this repo.
 ```bash
-	git clone https://github.com/youshitsune/frames.git
+git clone https://github.com/youshitsune/frames.git
 ```
 ---
 # Usage
 To run tool you first need to go to directory which you cloned and run this:
 ```bash
-	python3 main.py <path-to-video>
+python3 main.py <path-to-video>
 ```
 
 All extracted frames are in data directory.
