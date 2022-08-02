@@ -1,12 +1,13 @@
 # Frames
 
 Description: This CLI tool extracts images from video file.
+
 ---
 # Installation
 You first need to install python and pip on your system.
 Then, you are gonna install some python libraries.
 ```bash
-	pip install typer opencv-python
+	pip install -r requirements.txt
 ```
 
 After you install those libraries, clone this repo.
