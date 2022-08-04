@@ -3,7 +3,6 @@ import cv2
 import os
 
 def main(path: str):
-    global label
     video = cv2.VideoCapture(path)
 
     try:
@@ -32,4 +31,3 @@ def main(path: str):
 
 if __name__ == "__main__":
     typer.run(main)
-
