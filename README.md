@@ -1,4 +1,4 @@
-[[frames.svg]]
+[[frames.svg]](https://github.com/youshitsune/frames/blob/main/frames.svg)
 
 # Frames
 
