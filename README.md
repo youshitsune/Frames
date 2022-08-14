@@ -1,4 +1,4 @@
-![[frames.svg]]
+[[frames.svg]]
 
 # Frames
 
