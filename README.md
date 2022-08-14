@@ -1,3 +1,5 @@
+![[frames.svg]]
+
 # Frames
 
 Description: This CLI tool extracts images from video file.
